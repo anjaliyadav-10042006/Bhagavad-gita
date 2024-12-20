@@ -1,8 +1,7 @@
 import pandas as pd
 
 load excel file
-# file_path='bhagavad-gita.xlsx' 
-file_path='https://raw.githubusercontent.com/anjaliyadav-10042006/Bhagavad-gita/refs/heads/main/AI/bhagavad-gita.xlsx'
+file_path='bhagavad-gita.xlsx' 
 df=pd.read_excel(file_path)
 
 #convert each row to alist
