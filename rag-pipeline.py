@@ -6,11 +6,11 @@ import json
 # Load Data Function
 def load_data():
     # Replace with your actual file paths
-    gita_file = ("C:/Users/lovek/OneDrive/Desktop/RAG uning/Bhagwad_Gita.csv")
-    pys_file = ("C:/Users/lovek/OneDrive/Desktop/RAG uning/Patanjali_Yoga_Sutras_Verses_English_Questions.csv")
+    gita_file = ("Bhagwad_Gita.csv")
+    pys_file = ("Patanjali_yoga_sutras.csv")
     # Load the data using pandas, 
-    gita = pd.read_csv("C:/Users/lovek/OneDrive/Desktop/RAG uning/Bhagwad_Gita.csv")
-    pys = pd.read_csv("C:/Users/lovek/OneDrive/Desktop/RAG uning/Patanjali_Yoga_Sutras_Verses_English_Questions.csv")
+    gita = pd.read_csv("Bhagwad_Gita.csv")
+    pys = pd.read_csv("Patanjali_yoga_sutras.csv")
 
     # Print columns to verify correctness
     print("Columns in Gita file:", gita.columns)
